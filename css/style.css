@@ -1,0 +1,218 @@
+	/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+ul {
+    list-style:none;
+	padding:0; margin:0;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+	text-decoration:none;
+}
+a:hover { text-decoration:none;}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+img {max-width:100%;}
+
+/* Layout Page Css start */
+ul,ol {margin:0;}
+a {outline:none !important;}
+header {width:100%; background:#e01e51;padding: 15px 0 4px;box-shadow:0 30px 32px #ab0d36 inset;}
+
+.phoneno {float:right;line-height: 38px;}
+.phoneno li{float:left;color:#e8e8e8;font-family:lato;font-size:26px;}
+.phoneno li span {padding-right:10px;}
+.logo {float:left;}
+.menu_sec .new_menu .navbar-inverse {background:#000;font-family: lato;}
+.menu_sec {background:#000;}
+.menu_sec .navbar-nav > li > a {padding:12px 5px 10px;border-bottom:3px solid #000;font-weight:bold;font-size:15px;}
+.menu_sec .navbar-nav > li {margin:0 32px 0 0;}
+.menu_sec .navbar-nav > li:last-child {margin-right:0px;}
+.menu_sec .navbar-nav > li > a:hover {color:#eb3161;border-bottom:3px solid #eb3161}
+.slider_content {position:absolute;bottom:90px;right:142px;font-family: 'Lobster', cursive;}
+.my_slider {position:relative;background:#000}
+.my_slider .flexslider {border:none;margin:0;background:none;}
+.slider_content p {font-size:44px;color:#fff;text-shadow:3px 3px 3px #00BDFD;}
+.slider_content span {font-size:44px;color:#da1241;}
+.my_slider .flex-control-paging li a {border:2px solid #fc3468;background:none !important;}
+.my_slider .flex-control-nav li {margin:0 4px;}
+.my_slider .flex-control-paging li a:hover {background:#fff!important;}
+.my_slider .flex-control-nav {bottom:6px;}
+.wlcome_sec {background:#000000;font-family:lato; padding:40px 0 80px;}
+.centrcontent {text-align:center;}
+.centrcontent h1 {color:#aaaaaa;font-size:30px;background:url('../images/welcome_img.png') center bottom no-repeat; margin-bottom: 17px;padding: 0 0 14px;font-family: arial;}
+.centrcontent span {color:#fc3468;}
+.centrcontent p {color:#aaaaaa;font-size:16px;line-height: 27px;text-align: left;}
+.read_more {text-align:center;width:145px;margin:35px auto 20px;}
+.read_more a{display:block;padding:10px 30px;background:#fc3468;color:#fff;font-size:16px;font-family:lato;border-radius:20px;}
+.read_more a:hover {background:#AC1033;}
+.our_escorts {margin:70px 0 0}
+.our_escorts h1 {color:#aaaaaa;font-size:30px;text-align:center;background:url('../images/escorts_img.png') center bottom no-repeat;padding:0 0 14px;margin-bottom:17px;font-family: arial;}
+.our_escorts span {color:#fc3468;}
+.hover_name {position:absolute;bottom:7px;background:rgba(8, 3, 2, 0.8);padding:10px;left:2%;width:96%}
+.escorts {position:relative;}
+.escorts a {display:block}
+.escorts:hover .hover_name {background:rgba(218, 18, 65, 0.8);}
+.hover_name h2 {color:#fff;text-align:center;font-size: 16px;}
+footer {background:#393a3c; padding:26px 0 30px 0;}
+.footer_menu ul { list-style: none;}
+.footer_menu ul li {float: none;display:inline-block;background:url('../images/menu-devider.png')left center no-repeat; padding: 0 0 2px 12px;}
+.footer_menu ul {text-align:center;}
+.footer_menu li a {color:#797979;padding: 0 5px 0 0; font-size:14px;text-transform: capitalize; line-height:25px; display: block;font-family:lato;}
+.footer_menu ul li:first-child {background:none}
+.copyright p {color:#797979;font-family:lato;text-align:center;padding:2px 5px 0 0;font-size:14px;}
+.social_icons li {display:inline-block;}
+.social_icons ul {text-align:center}
+.social_icons {margin:18px 0 0 0}
+.my_slider .flex-direction-nav {display:none;}
+.footer_menu li a:hover {color:#ee3464;}
+.my_slider .flex-control-paging li a {height: 13px;width: 13px;}
+.google_plus { background:url('../images/google.png') no-repeat;width:43px; height:42px;}
+.pintrst {background:url('../images/pinterest.png') no-repeat;width:43px; height:42px;}
+.twwittr {background:url('../images/twitter.png') no-repeat;width:43px; height:42px;}
+.fb_image {background:url('../images/fb.png') no-repeat;width:43px; height:42px;}
+.google_plus:hover {background:url('../images/google_hover.png') no-repeat;width:43px; height:42px;}
+.pintrst:hover {background:url('../images/p-icon-hover.png') no-repeat;width:43px; height:42px;}
+.twwittr:hover {background:url('../images/twitter-hover.png') no-repeat;width:43px; height:42px;}
+.fb_image:hover {background:url('../images/fb-hover.png') no-repeat;width:43px; height:42px;}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+.menu_sec .navbar-nav > li { margin: 0 29px 0 0;}
+.slider_content {bottom: 60px;right: 52px;}
+
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+.hover_name {padding:5px;}
+.hover_name h2{font-size:14px;}
+.menu_sec .navbar-nav > li {margin:0 8px 0 0;}
+.menu_sec .navbar-nav > li > a {font-size:14px}
+.slider_content p {font-size: 37px;}
+.slider_content {right: 30px;bottom: 33px;}
+.footer_menu ul li {padding: 0 0 2px 9px;}
+.footer_menu li a {font-size: 13px;padding: 0 2px 0 0;}
+.copyright p {font-size:13px;}
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+.escorts img {width:100%}
+.slider_content {right: 35px;bottom: 15px;}
+.slider_content p {line-height:17px; font-size: 20px;}
+.phoneno {float:none}
+.phoneno > ul {text-align:center}
+.logo img {display:block;margin:0 auto}
+.logo {float:none;}
+header {padding:15px 0 0px;}
+.phoneno li {display:inline-block;float:none;}
+.my_slider .flex-control-paging li a {height: 14px;width: 14px;}
+
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+.slider_content {right: 35px;bottom: 15px;}
+.slider_content p {line-height:17px; font-size: 15px;}
+.my_slider .flex-control-nav {bottom: -29px;}
+.my_slider .flex-control-paging li a {height: 10px;width: 10px;}
+.slider_content span {font-size:15px;}
+.centrcontent h1 {font-size:23px;}
+.centrcontent p {text-align:left}
+.read_more {margin: 25px auto 0;}
+.our_escorts {margin: 40px 0 0;}
+.our_escorts h1 {font-size:23px;}
+.escorts img {width:100%}
+.logo img {width:100%}
+.wlcome_sec {padding: 40px 0;}
+.escorts {margin-bottom:15px;}
+.footer_menu ul {margin-bottom:15px;}
+.footer_menu ul li {background:none;padding: 0 0 2px 4px;}
+.phoneno li span {padding-right:2px;}
+}
